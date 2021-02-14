@@ -1,0 +1,21 @@
+{
+  "name": "cypresspractise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "triggerAllTests-chrome":"npx cypress run --browser chrome",
+    "triggerAllTests-apiTesting":"npx cypress run --browser chrome --spec cypress/integration/apiTesting/* ",
+    "triggerAllTests-Javascript":"npx cypress run --browser chrome --spec cypress/integration/Javascript/* ",
+    "triggerAllTests-PageObjectModelTestcase":"npx cypress run --browser chrome --spec cypress/integration/PageObjectModelTestcase/* ",
+    "triggerAllTests-Practise5":"npx cypress run --browser chrome --spec cypress/integration/Practise5/* ",
+    "triggerAllTests-Testcasesfixture":"npx cypress run --browser chrome --spec npcypress/integration/Testcasesfixture/* "
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.3.0"
+  }
+}
